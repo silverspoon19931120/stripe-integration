@@ -1,0 +1,63 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("./assets/fonts/Roboto-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("./assets/fonts/Roboto-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("./assets/fonts/Roboto-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Ubuntu-Regular";
+  src: url("./assets/fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu-Bold";
+  src: url("./assets/fonts/Ubuntu-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Ubuntu-Light";
+  src: url("./assets/fonts/Ubuntu-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Ubuntu-Medium";
+  src: url("./assets/fonts/Ubuntu-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Ubuntu-Regular";
+  src: url("./assets/fonts/Ubuntu-Regular.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", "Lato", "Helvetica Neue", "Arial", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f6f9fd;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.primary-btn {
+  font-size: 18px;
+  font-weight: 300;
+  color: white;
+  background-color: #5479f7;
+  box-shadow: 0px 2px 0px #2f5bf3;
+  border-radius: 5px;
+}
+.primary-btn:hover {
+  background-color: #2f5bf3;
+}
